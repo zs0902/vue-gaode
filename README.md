@@ -5,6 +5,7 @@
 第一步：在index.html中引入高德js
 <script type="text/javascript" rel="preconnect" src="https://webapi.amap.com/maps?v=1.4.14&key=63bb6349795a9b5d64c1774a7acd953d"></script>
 
+
 第二步：在build/webpack.base.conf.js中配置module.exports
 加入：externals: {
   
